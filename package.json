@@ -1,0 +1,30 @@
+{
+  "name": "practica5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --publish always"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^38.2.0",
+    "electron-builder": "^26.0.12"
+  },
+  "dependencies": {
+    "electron-updater": "^6.6.2"
+  },
+  "build":{
+    "appId": "com.electron.mireproductor",
+    "productName": "Mi Reproductor de musica",
+    "publish": 
+      {
+        "provider": "github",
+        "owner": "Neith21",
+        "repo": "Mi-Reproductor-de-M-sica"
+  }
+}
+}
